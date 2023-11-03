@@ -34,7 +34,6 @@ const MyApp=()=>{
     default:
       break;
   };
-  console.log("path" + interprettedPathname)
 
   return (
     <>
