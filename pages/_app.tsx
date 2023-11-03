@@ -1,4 +1,5 @@
 import '../styles/global.css'
+import Head from 'next/head'
 
 import Home from './home';
 import Projects from './projects';
@@ -37,6 +38,10 @@ const MyApp=()=>{
 
   return (
     <>
+      <Head>
+        <title>Tadeo Menichelli</title>
+        <link rel='icon' href='/favicon.ico'/>
+      </Head>
       <div className='fixed left-0 top-0 bg-black w-screen h-screen z-[-1]'></div>
       <Waves xDots={200} yDots={25}/>
       <div className="overflow-hidden">
