@@ -40,7 +40,7 @@ const MyApp=()=>{
     <>
       <Head>
         <title>Tadeo Menichelli</title>
-        <link rel='icon' href='/favicon.ico'/>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
       <div className='fixed left-0 top-0 bg-black w-screen h-screen z-[-1]'></div>
       <Waves xDots={200} yDots={25}/>
