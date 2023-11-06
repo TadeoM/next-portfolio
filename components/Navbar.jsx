@@ -28,8 +28,10 @@ export default function Navbar(activeName)
       <div className='md:w-4/5 lg:w-6/12 2xl:w-5/12 md:px-auto py-4 px-7 md:flex justify-between items-center w-5/12 md:m-auto'>
         {/*logo here*/}
         <div className='flex text-2x1 cursor-pointer items-center gap-2 text-xl'>
-          <VariableIcon className='w-8 h-8 text-red-500 m-auto'/>
-          <span className=' font-bold text-amber-50 hover:text-red-500 m-auto'>Tadeo Menichelli</span>
+          <a href='/'>
+            <VariableIcon className='w-8 h-8 text-red-500 m-auto'/>
+            <span className=' font-bold text-amber-50 hover:text-red-500 m-auto'>Tadeo Menichelli</span>
+          </a>
         </div>
 
         {/*Menu Icon */}
