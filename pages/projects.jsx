@@ -43,6 +43,7 @@ export default function Projects() {
         require("../public/images/Hitem/gameplay2.png"),
         require("../public/images/Hitem/title.png"),
       ],
+      gameUrl: "https://gilexarr.itch.io/hit-em",
       sourceUrl: "https://github.com/TadeoM/HitEm"
     },
     {
