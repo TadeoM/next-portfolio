@@ -17,7 +17,7 @@ export default function About() {
         </p>
         {/* why does added flex make it align left, but nothing else does? Am I cheating to get this to work? */}
         <button className='btn bg-red-500 text-amber-50 text-lg font-semibold py-4 px-10 rounded-full leading-4'>
-          <a href='../downloadableFiles/TadeoMenichelliResume.pdf' download='TadeoMenichelliResume.pdf'>Download CV</a>
+          <a href='../public/TadeoMenichelliResume.pdf' download='TadeoMenichelliResume.pdf'>Download CV</a>
         </button>
       </div>
     </div>  
