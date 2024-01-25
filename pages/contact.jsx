@@ -78,7 +78,7 @@ export default function Contact(){
             <div className='w-full flex'>
               <textarea className='w-full h-36 mx-7 rounded-lg py-2 px-4 bg-neutral-800 text-neutral-400' id='message' type='text' placeholder='Message' name='message' required/>
             </div>
-            <button className='m-5 mx-10 px-5 py-2 bg-red-500 rounded-full float-left' disabled={!isValid} type='submit' value='Send' onSubmit={emailValidation}>Submit Message</button>
+            <button className='m-5 mx-10 px-5 py-2 bg-red-500 rounded-full float-left hover:brightness-75' disabled={!isValid} type='submit' value='Send' onSubmit={emailValidation}>Submit Message</button>
             <div className={
               classNames({
                 hidden: isValid,

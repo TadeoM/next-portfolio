@@ -47,7 +47,7 @@ export default function Navbar(activeName)
           {
             Links.map((link,index) => renderLink(link,index))
           }
-          <button className='btn bg-red-500 text-amber-50 py-1 px-3 md:ml-8 rounded md:static '><a href="/contact">Contact Me</a></button>
+          <button className='btn bg-red-500 text-amber-50 py-1 px-3 md:ml-8 rounded md:static hover:brightness-75'><a href="/contact">Contact Me</a></button>
         </ul>
       </div>
     </div>

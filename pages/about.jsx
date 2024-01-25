@@ -17,9 +17,11 @@ export default function About() {
         fit for!
         </p>
         {/* why does added flex make it align left, but nothing else does? Am I cheating to get this to work? */}
-        <button className='btn bg-red-500 text-amber-50 text-lg font-semibold py-4 px-10 rounded-full leading-4'>
-          <a href='/TadeoMenichelliResume.pdf' download>Download CV</a>
-        </button>
+        <a href='/TadeoMenichelliResume.pdf' download>
+          <button className='btn bg-red-500 text-amber-50 text-lg font-semibold py-4 px-10 rounded-full leading-4 hover:brightness-75'>
+            Download CV
+          </button>
+        </a>
       </div>
     </div>  
   )
