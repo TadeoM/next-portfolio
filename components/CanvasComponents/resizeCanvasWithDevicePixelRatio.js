@@ -7,10 +7,10 @@ export default function resizeCanvas(canvas) {
     const { devicePixelRatio:ratio=1 } = window
     const context = canvas.getContext('2d')
     canvas.width = width*ratio
-    canvas.height = height*ratio
+    canvas.height = height
     context.scale(ratio, ratio)
-    return true
+    return true;
   }
 
-  return false
+  return false;
 }

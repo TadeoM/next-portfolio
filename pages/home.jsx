@@ -1,4 +1,3 @@
-
 export default function Home() {
   return (
     <div className='mx-auto space-y-4 translate-y-1/3 text-center'>

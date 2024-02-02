@@ -28,7 +28,7 @@ export default function Waves(props) {
     for(let y = 0; y < yDots; y++) 
     {
       let inbetween = 15 * ((y - (yDots/2)) / (yDots/2));
-      let yPos = (y * 25) + 400;
+      let yPos = (y * 25) + (ctx.canvas.height/3);
       let size = 1 + (3 * (y / yDots));
 
       for (let x = 0; x < xDots; x++) 

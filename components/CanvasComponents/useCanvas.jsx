@@ -1,8 +1,10 @@
 import { useRef, useEffect } from 'react'
+import resizeCanvas from './resizeCanvasWithDevicePixelRatio'
 
 export default function useCanvas(draw, options={}, {predraw,postdraw}) {
   
   const canvasRef = useRef(null)
+  console.log('here')
   
   useEffect(() => {
     
