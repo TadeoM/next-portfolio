@@ -42,7 +42,7 @@ const MyApp=()=>{
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
       <div className='fixed left-0 top-0 bg-black w-screen h-screen z-[-1]'></div>
-      <Waves xDots={200} yDots={25}/>
+      <Waves xDots={200} yDots={50}/>
       <div className="overflow-hidden">
         <div className='z-[1]'>
           <Navbar activeName={interprettedPathname}/>
